@@ -2,7 +2,7 @@ name: weread sync
 
 on:
   workflow_dispatch:
-  schedule:
+  #schedule:
     #- cron: "0/30 * * * *"
 jobs:
   sync:
